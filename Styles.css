@@ -1,0 +1,96 @@
+/* Reset beberapa styling default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body dan dasar layout*/
+body{
+    font-family:'Arial'.sans-serif;
+    line-height:1.6;
+    background-color:#f4f4f4;
+    color:#333;
+    
+/* Reset dasar */
+body, h1, h2, p, ul, table, footer {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #0000ff;
+    color: YELLOW;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: YELLOW;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+section h2 {
+    color: #0000FF;
+    border-bottom: 2px solid #FFFF00;
+    padding-bottom: 5px;
+}
+
+/* Tabel */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 1px;
+    text-align: left;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 3px solid #000000;
+  padding: 8px;
+  text-align: senter;
+}
+
+table th {
+  background: #0000FF;
+  color: #FFFFFF;
+}
